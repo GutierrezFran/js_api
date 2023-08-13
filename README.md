@@ -13,15 +13,14 @@ Asegúrate de tener Node.js y npm (Node Package Manager) instalados en tu sistem
 1. Clona este repositorio en tu máquina local:
 
 ```bash
-git clone https://github.com/GutierrezFran/tu-proyecto.git
-cd tu-proyecto
+git clone https://github.com/GutierrezFran/js_api.git
+cd js_api
 
 ## Endpoints
-
 Aquí los endpoints disponibles en esta API:
 
-```plaintext
+```bash
 GET /v1/users/hello-world          - Muestra mensaje hola mundo.
-POST /v1/users/insert     - Inserta un nuevo usuario, pasar un json en Postman.
-GET /v1/users         - Selecciona y devuelve todos los registros de la base de datos.
+POST /v1/users/insert              - Inserta un nuevo usuario, pasar un json en Postman.
+GET /v1/users                      - Selecciona y devuelve todos los registros de la base de datos.
 
